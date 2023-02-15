@@ -5,6 +5,7 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		int[] a= {10,34,23,67,32,5,2,17};
 		int temp;
+		int n=1;
 		for(int i=0;i<a.length;i++) {
 			
 			for(int j=0;j<a.length-1;j++) {
@@ -18,6 +19,8 @@ public class BubbleSort {
 				}
 				
 			}
+			
+
 			
 		}
 		

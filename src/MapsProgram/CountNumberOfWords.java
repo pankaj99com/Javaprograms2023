@@ -32,7 +32,7 @@ public class CountNumberOfWords {
 		
 		for(String s:map.keySet()) {
 			
-			System.out.println("Count of words  -->"+s+" is--> "+map.get(s));
+			System.out.println("Count of words  -->"+s+"--> "+map.get(s));
 			
 		}
 	}

@@ -12,11 +12,9 @@ public class PrintingOnlyDigits {
 			char ch=str.charAt(i);
 			
 			//Character.isSpace(ch)
-			if(Character.isUpperCase(ch)) {
+			if(Character.isDigit(ch)) {
 				
 				System.out.print(ch);
-				
-				//System.out.println((int)ch);
 			}
 		}
 

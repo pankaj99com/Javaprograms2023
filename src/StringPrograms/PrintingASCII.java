@@ -12,6 +12,10 @@ public class PrintingASCII {
 			char ch=str.charAt(i);
 			System.out.println(ch+"---->"+(int)ch);
 		}
+		
+		
+		char c1='%';
+		System.out.println((int)c1);
 
 	}
 

@@ -14,11 +14,12 @@ public class PrintingCountOfUpperCaseChar {
 			char ch=str.charAt(i);
 			if(Character.isUpperCase(ch)) {
 				count++;
-				System.out.println(ch);
+				System.out.print(ch);
 			
 			}
-		
+			
 		}
+		System.out.println();
 		System.out.println(count);
 	}
 

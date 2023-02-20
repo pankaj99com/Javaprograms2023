@@ -10,9 +10,13 @@ public class PrintingOnlyDigits {
 		String str= sc.nextLine();
 		for(int i=0;i<str.length();i++) {
 			char ch=str.charAt(i);
-			if(Character.isDigit(ch)) {
+			
+			//Character.isSpace(ch)
+			if(Character.isUpperCase(ch)) {
 				
 				System.out.print(ch);
+				
+				//System.out.println((int)ch);
 			}
 		}
 
